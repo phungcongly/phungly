@@ -32,3 +32,10 @@ btn.on('click', function(e) {
   $('html, body').animate({scrollTop:0}, '300');
 });
 
+AOS.init({
+  offset: 100,
+  duration: 400,
+  easing: 'ease-in-sine',
+  delay: 100,
+  once:true
+});
